@@ -51,4 +51,10 @@ public class MasterOrder {
 		// tbh I missed the exact explanation.
 
 	}
+	
+	public void showOrder(){
+		for(CookieOrder order: orders){
+			System.out.println("Variety: " + order.getVariety() + " Boxes: " + order.getNumBoxes());
+		}
+	}
 }
